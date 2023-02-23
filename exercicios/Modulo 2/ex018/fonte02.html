@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/logo-css3-200-.png" type="image/x-icon">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'Love';
+            src: url('fontes/love\ larry\ ttf.ttf') format('truetype'); /* url('love larry.otf') format('opentype');*/
+            font-weight: normal;
+            font-style: normal;
+            /* 
+                Tipos de format()
+                - opentype (otf)
+                - truetype (tff)
+                - embedded-opentype
+                - truetype-aat (Apple Advanced Typography)
+                - svg
+            */
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            font-family: 'Love', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Titulo</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit eveniet nostrum hic vel, corporis labore neque nesciunt similique adipisci! Eveniet ex ad itaque? In cumque perspiciatis libero ex nihil impedit.</p>
+</body>
+</html>
